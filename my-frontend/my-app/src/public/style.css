@@ -1,0 +1,21 @@
+body {
+    margin: 10px;
+    background-color: azure;
+    padding: 5px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  
+  th, td {
+    border: 1px solid;
+    padding: 4px;
+    align-items: center;
+  }
+  
+  tr, td{
+    text-align: center;
+  }
+  

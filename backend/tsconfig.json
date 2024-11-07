@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true ,
+    "baseUrl": "../my-frontend/src",
+    "target": "ESNext", 
+    //"verbatimModuleSyntax": true,
+    "allowJs":true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "noUncheckedIndexedAccess": true,   
+    "allowSyntheticDefaultImports": true,                             
+    "module": "NodeNext",                                
+    "rootDir": "../my-frontend/src",                                  
+    "moduleResolution": "NodeNext",                        
+    "importHelpers": true,    
+    "checkJs": true,                                
+    "declaration": true,                               
+    "outDir": "dist",
+    "sourceMap": true,
+    "forceConsistentCasingInFileNames": true,
+    "lib": ["ES2022", "dom", "DOM.Iterable"],
+    "composite":true,
+    "declarationMap": true
+    },
+    "include": ["../my-frontend/src/**/*.ts", "../my-frontend/src/routes.ts"],
+    "exclude": ["node_modules", "dist"],
+    "types": ["uuid"]
+}                                  
